@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/32/user/1910421).
-* Наставник: [Антон Савельев](https://htmlacademy.ru/profile/id1101501).
+* Наставник: [Антон Савельев](https://htmlacademy.ru/profile/id1101501)
 
 ---
 

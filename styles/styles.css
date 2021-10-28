@@ -1,0 +1,21 @@
+
+.main-index {
+    background-color: black;
+    background: url("../image/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 485px;
+
+}
+.subscription{
+    background-color: black;
+    background: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 411px;
+}
+.main-inner{
+    background-color: black;
+    background: url("../image/catalog-background\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 480px;
+
+}

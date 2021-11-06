@@ -10,13 +10,13 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li>
-            <a href="index.html">Главная</a>
+            <a class="navigation-link" href="index.html">Главная</a>
           </li>
           <li>                                                                                          
-            <a href="#">О Седоне</a>
+            <a  class="navigation-link" href="#">О Седоне</a>
           </li>
           <li>
-            <a>Гостиницы</a>
+            <a  class="navigation-link">Гостиницы</a>
           </li>
         </ul>
             <a>
@@ -25,7 +25,7 @@
             <ul class=" navigation-list navigation-user">
           <li>
             <form action="#" method="get">
-            <a href="#">
+            <a  class="navigation-link" href="#">
               <span class="visually-hidden">
                 <label>
                     Поиск<input type="search" name="Поиск">
@@ -35,7 +35,7 @@
             </li>
             </form>
           <li>
-            <a href="#">
+            <a class="navigation-link" href="#">
               <span class="visually-hidden">
                 Избранное
               </span>
@@ -51,9 +51,9 @@
             <h1>
                 Гостиницы Седоны
             </h1>
-            <ul>
+            <ul class="bradcrumbs">
                 <li>
-                    <a href="index.html">
+                    <a class="bradcrumbs-link" href="index.html">
                         <span class="visually-hidden">
                             Главная
                         </span> 
@@ -118,7 +118,7 @@
                         </ul>
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset class="price-control">
                         <label>
                              от <input class="catalog-filter-input" type="number" name="min-price" value="0">
                         </label>
@@ -136,11 +136,11 @@
                     </div>
 
                     </fieldset>
-                    <button class="button" type="reset">Применить</button>
-                    <button class="button" type="submit">Сбросить</button>
+                    <button class="button button-price-control-1" type="reset">Применить</button>
+                    <button class="button button-price-control-2" type="submit">Сбросить</button>
                     </form>
             </section>
-            <section>
+            <section class="catalog-control">
                 <h3>
                     Найдено гостиниц: 38 
                 </h3>
@@ -164,45 +164,45 @@
                 <li>
                     <a href="#">
                         <img src="image/hotel-1.jpg" width="180" height="120" alt="Первый отель">
-                        <h3>Amara Resort & Spa</h3>
+                        <h3 class="product-name">Amara Resort & Spa</h3>
                     </a>
                     <p>Гостиница</p>
                     <span>От 4000₽</span>
                     <p>
-                        <a href="#">Подробнее</a>
-                        <a href="#">В избранное</a>
+                        <a class="product-link" href="#">Подробнее</a>
+                        <a class="product-link" href="#">В избранное</a>
                     </p>
-                    <p>
+                    <p class="rating">
                         Рейтинг: 8,5
                     </p>
                 </li>
                 <li>
                     <a href="#">
                         <img src="image/hotel-2.jpg" width="180" height="120" alt="Второй отель">
-                        <h3>Desert Quail Inn</h3>
+                        <h3 class="product-name">Desert Quail Inn</h3>
                     </a>
                     <p>Мотель</p>
                     <span>От 3000 ₽</span>
                     <p>
-                        <a href="#">Подробнее</a>
-                        <a href="#">В избранное</a>
+                        <a class="product-link" href="#">Подробнее</a>
+                        <a class="product-link" href="#">В избранное</a>
                     </p>
-                    <p>
+                    <p class="rating">
                         Рейтинг: 8,9
                     </p>
                 </li>
                 <li>
                     <a href="#">
                         <img src="image/hotel-3.jpg" width="180" height="120" alt="Третий отель">
-                        <h3>Villas at Poco Diablo</h3>
+                        <h3 class="product-name">Villas at Poco Diablo</h3>
                     </a>
                     <p>Апартаменты</p>
                     <span>От 2000 ₽</span>
                     <p>
-                        <a href="#">Подробнее</a>
-                        <a href="#">В избранном</a>
+                        <a class="product-link" href="#">Подробнее</a>
+                        <a class="product-link" href="#">В избранном</a>
                     </p>
-                    <p>
+                    <p class="rating">
                         Рейтинг: 9,2
                     </p>
                 </li>
@@ -214,43 +214,43 @@
                     <p>Гостиница</p>
                     <span>От 3000 ₽</span>
                     <p>
-                        <a href="#">Подробнее</a>
-                        <a href="#">В избранное</a>
+                        <a class="product-link" href="#">Подробнее</a>
+                        <a class="product-link" href="#">В избранное</a>
                     </p>
-                    <p>
+                    <p class="rating"> 
                         Рейтинг: 9,2
                     </p>
                 </li>
             </ul>
-            <a>Загрузить ещё</a>
+            <a class="pagination-show-more">Загрузить ещё</a>
             <ul class="pagination">
                 <li>
-                    <a>1</a>
+                    <a class="pagination-link pagination-current">1</a>
                 </li>
-                <li>
-                    <a href="#">2</a>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">2</a>
                 </li>
-                <li>
-                    <a href="#">3</a>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">3</a>
                 </li>
-                <li>
-                    <a href="#">4</a>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">4</a>
                 </li>
-                <li>
-                    <a href="#">...</a>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">...</a>
                 </li>
-                <li>
-                    <a href="#">10</a>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">10</a>
                 </li>
             </ul>
         <form>
-            <label>Гостиниц на странице:</label>
+            <label class="sorting">Гостиниц на странице:</label>
             <select name="sorting">
-                <option>4</option>
+                <option class="sorting-number">4</option>
             </select>
         </form>
         </section>
-        <section class="subscription">
+        <section class="catalog-subscription">
             <h3>
               Подпишитесь на рассылку
             </h3>
@@ -259,10 +259,10 @@
               честное бойскаутское!
             </p>
             <form action="#" method="get">
-              <label>
+              <label class="adress">
                 Ваш e-mail <input type="text" name="e-mail">
               </label>
-              <button type="button">Подписаться</button>
+              <button class="adress-subscription" type="button">Подписаться</button>
             </form>
              </label>
           </section>
